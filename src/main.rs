@@ -88,6 +88,11 @@ fn process_args(args: &[String], prefix: &mut String, title: &mut String, path: 
 fn print_usage()
 {
     println!("usage: manga-cv [Options] [DIRECTORY]");
+
+    println!("  -o");
+    println!("      offset, determines what number the program starts incrementing as");
+    println!("  -t");
+    println!("      title, determines what the output is named");
 }
 
 
