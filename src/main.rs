@@ -11,13 +11,21 @@ fn main() {
     let mut args: Vec<String> = env::args().collect();
 
     let mut prefix = String::from("Vol");
-    let mut path = String::new();
+    let mut path = String::from(".");
     let mut offset = 0;
     let mut help_arg = false;
 
     args.remove(0);
 
     process_args(&args, &mut prefix, &mut title, &mut path, &mut offset, &mut help_arg);
+
+    let path2 = Path::new(&path);
+
+    if !path2.exists()
+    {
+        path = String::from(".");
+    }
+
 
     if !help_arg
     {
@@ -120,8 +128,8 @@ fn traverse_path(path: String, title: String, prefix: String, offset: u32)
                     let o = "output";
                     if entry_file_name != o
                     {
-                        i = i + 1;
                         execute_once(entry_path, offset + i, &title, prefix.clone());
+                        i = i + 1;
                     }
                 }
             }
@@ -133,8 +141,8 @@ fn traverse_path(path: String, title: String, prefix: String, offset: u32)
 fn check_output_dir(_path: &str)
 {
     let path = Path::new(&_path);
-    let path = path.join("..");
     let output_present = path.join("output").exists();
+
     
     if !output_present
     {
@@ -171,7 +179,6 @@ fn execute_once(path: PathBuf, index: u32, title:&str, prefix: String)
     let mut command = Command::new("convert");
 
     let path = path.join("*");
-
     
     let title = format!("{}{}{}.pdf", title, prefix, index);
     
@@ -185,9 +192,10 @@ fn execute_once(path: PathBuf, index: u32, title:&str, prefix: String)
     command.arg(dest.clone());
 
     
+    println!("{}", title);
     println!("{}", path.display());
     println!("{}", dest.display());
-    let result = command.spawn();
+    let result = command.output();
 
     match result
     {

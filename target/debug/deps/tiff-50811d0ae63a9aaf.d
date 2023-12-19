@@ -1,0 +1,14 @@
+/home/nuck/dox/projects/rust/manga-cv/target/debug/deps/libtiff-50811d0ae63a9aaf.rmeta: /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/lib.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/bytecast.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/decoder/mod.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/decoder/ifd.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/decoder/stream.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/encoder/mod.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/encoder/colortype.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/encoder/writer.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/error.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/tags.rs
+
+/home/nuck/dox/projects/rust/manga-cv/target/debug/deps/tiff-50811d0ae63a9aaf.d: /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/lib.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/bytecast.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/decoder/mod.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/decoder/ifd.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/decoder/stream.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/encoder/mod.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/encoder/colortype.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/encoder/writer.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/error.rs /home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/tags.rs
+
+/home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/lib.rs:
+/home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/bytecast.rs:
+/home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/decoder/mod.rs:
+/home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/decoder/ifd.rs:
+/home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/decoder/stream.rs:
+/home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/encoder/mod.rs:
+/home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/encoder/colortype.rs:
+/home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/encoder/writer.rs:
+/home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/error.rs:
+/home/nuck/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tiff-0.6.1/src/tags.rs:
